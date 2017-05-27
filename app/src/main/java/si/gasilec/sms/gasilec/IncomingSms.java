@@ -39,7 +39,7 @@ public class IncomingSms extends BroadcastReceiver {
 
                     String senderNum = phoneNumber;
                     String message = currentMessage.getDisplayMessageBody();
-
+                   //POŽAR NA OBJEKTU, Slovenski trg 1  --Sending: ReCO, RIC:464646, IL: 4564564
                     Pattern pattern  = Pattern.compile("^(.+?),(.+?)--",Pattern.CASE_INSENSITIVE);
                     Matcher matcher  = pattern.matcher(message);
 
