@@ -30,7 +30,7 @@ public class IncomingSms extends BroadcastReceiver {
 
         //https://stackoverflow.com/questions/44128565/open-google-maps-on-sms
         final Bundle bundle = intent.getExtras();
-        final String smsNumer = "+38641870170";
+        final String smsNumer = "+38641870870";
         String searchString ="";
         Hashtable<String, Integer> numbers = new Hashtable<String, Integer>();
         numbers.put("LENART", 2206);
